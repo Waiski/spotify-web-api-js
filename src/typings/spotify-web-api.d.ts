@@ -4,11 +4,9 @@
 
 /// <reference path="./spotify-api.d.ts" />
 
-// export as namespace SpotifyWebApiJs;
+export as namespace SpotifyWebApiJs;
 
-export default SpotifyWebApi;
-
-
+export = SpotifyWebApi;
 
 declare namespace SpotifyWebApi {
     interface VoidResultsCallback {
